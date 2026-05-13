@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/mn-bots/shobanafilterbot",
-    "repository": "https://github.com/mn-bots/shobanafilterbot",
+    "website": "https://github.com/Devil7372/ShobanaFilterBot",
+    "repository": "https://github.com/Devil7372/ShobanaFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",

@@ -43,8 +43,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2')
+             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/BOTxUPDATE'),
+             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/BOTxUPDATE')
          ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -62,7 +62,7 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://mangandi-2-0.onrender.com/Xdgv.mp4",                                               
                                                  caption=f'<pre>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.</pre>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ɢʀᴏᴜᴘ', url='htpps://t.me/mn_movies_group2') ] ] )
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/ogBestFriends') ] ] )
                 )
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
